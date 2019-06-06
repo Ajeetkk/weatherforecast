@@ -11,7 +11,7 @@ class Home extends React.Component{
 
 componentDidMount(){
 
-    axios.get('http://api.openweathermap.org/data/2.5/forecast?zip=94040&appid=cabd7b07e0a83ca8fffb66ca5bbece57')
+    axios.get('https://api.openweathermap.org/data/2.5/forecast?zip=94040&appid=cabd7b07e0a83ca8fffb66ca5bbece57')
     .then(res => {
 
         let dd = "response data";
